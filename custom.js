@@ -41,9 +41,9 @@ class Custom extends HTMLElement {
         console.log(e.target.value);
         switch (e.target.value) {
             case "0":
-                document.getElementById("img4").style.display = "none"
-                document.getElementById("img5").style.display = "none"
-                document.getElementById("img6").style.display = "none"
+                document.getElementById("img1").style.display = "none"
+                document.getElementById("img2").style.display = "none"
+                document.getElementById("img3").style.display = "none"
                 break;
             case "1":
                 document.getElementById("img1").style.display = "flex"
