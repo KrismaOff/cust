@@ -1,0 +1,59 @@
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+.blockPic {
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 60%;
+    height: 500px;
+    margin: 20px 20%;
+}
+.blockPicSvg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img {
+    position: absolute;
+    top: 13%;
+    left: 33%;
+}
+.img1 {
+    display: none;
+}
+.img2 {
+    display: none;
+    /* background: red; */
+    top: 20%;
+    left: 20%;
+}
+.img3 {
+    display: none;
+    left: 40%;
+    top: 15%;
+}
+.img11 {
+    display: none;
+    left: -40px;
+    top: 200px;
+}
+.img12 {
+    display: none;
+    left: 250px;
+    top: 170px;
+}
+.img13 {
+    display: none;
+    left: 250px;
+    top: 240px;
+}
+/* .d-none {
+    display: none;
+}
+.d-yes {
+    display: flex;
+} */
